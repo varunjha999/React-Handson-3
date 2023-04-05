@@ -1,0 +1,74 @@
+.bg{
+    background-image: gradient(to top ,green,pink,yellow);
+    height: 60vw;
+}
+
+ 
+
+body{
+  background: linear-gradient(to right,lightblue,lightpink,lightyellow); 
+} 
+
+h1{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.name{
+   font-size: 24px;
+   font-weight: bold;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box{
+   margin-left: 10px;
+   height: 25px;
+   border-radius: 50px;
+}
+
+.submit{
+   background-color: lightblue;
+   width: 130px;
+   height: 35px;
+   border-radius: 50px;
+   font-weight:bolder;
+}
+
+
+
+/* //// */
+
+
+
+ .main-box{
+   width:90%;
+   height:auto; 
+   margin-top: 30px;
+   margin-left: 70px;
+   background-color: lightblue;
+   flex-direction: row;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+   border: 1px solid black;
+ }
+
+ .output{
+   height:fit-content;
+   line-height: 40px;
+   width:500px;
+   text-align: center;
+   border: 1px solid black;
+   border-radius: 10px;
+   background-color:rgb(179, 67, 67);
+   margin-left: 390px;
+
+ }
+ button{
+   font-size: 20px;
+  width: 150px;
+  height: 40px;
+   background-color:aqua;
+   border-radius: 20px;
+ 
+  
+ }
